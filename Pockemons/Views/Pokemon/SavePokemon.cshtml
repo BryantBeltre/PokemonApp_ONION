@@ -1,0 +1,70 @@
+﻿@using Pokemons.Core.Application.ViewModel.Pokemones
+@model SavePokemon  
+
+@{
+    
+    bool editMode= Model.Id == 0 ? false : true;
+    ViewData["Title"] = "Save Pokemon";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-dark text-light">
+                    <h4>@(editMode ? $"Editando el pokemon: {Model.Name}" : "Creando un nuevo pokemon")</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Pokemon" asp-action="@(editMode ? "Edit" : "Create")">
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label">Nombre: </label>
+                            <input type="text" asp-for="Name" class="form-control"/>
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="UrlImg" class="form-label">Url Image: </label>
+                            <input type="text" asp-for="UrlImg" class="form-control"/>
+                            <span asp-validation-for="UrlImg" class="text-danger"></span>
+                        </div>
+
+                        
+                        <div class="mb-3">
+                            <label asp-for="IdRegion" class="form-label">Region: </label>
+                            <select asp-for="IdRegion" class="form-select">
+                                <option value="">Selct a option for region</option>
+                                <option value="1">Kanto</option>
+                                <option value="2">Alola</option>
+                                <option value="3">Hisui</option>
+                            </select>
+                            <span asp-validation-for="IdRegion" class="text-danger"></span>
+                        </div>
+
+                       <div class="mb-3">
+                            <label asp-for="IdType" class="form-label">Region: </label>
+                            <select asp-for="IdType" class="form-select">
+                                <option value="">Selct a option for type</option>
+                                <option value="1">Electrico</option>
+                                <option value="2">Siniestro</option>
+                                <option value="3">Normal</option>
+                                <option value="4">Psiquico</option>
+                            </select>
+                            <span asp-validation-for="IdType" class="text-danger"></span>
+                        </div>
+
+                        <input type="hidden" asp-for=Id/>
+
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <a asp-controller="Pokemon" asp-action="Index" class="btn btn-warning">Return</a>
+
+                    </form>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+

@@ -1,0 +1,50 @@
+﻿@using Pokemons.Core.Application.ViewModel.Pokemones
+@model List<PokemonViewModel>
+@{
+    ViewData["Title"] = "Pokemon";
+}
+
+<div class="container-fluid">
+    <div class="row mb-3">
+        <div class="col-3 offset-9" >
+            <a asp-controller="Pokemon" asp-action="Create" class="btn btn-outline-success">Create Pokemon</a>
+        </div>
+
+    </div>
+
+    <div class="row">
+        
+
+        @if (Model == null || Model.Count == 0)
+        {
+            <h3>No se han creado Pokemons</h3>
+        }
+        else
+        {
+            @foreach (PokemonViewModel item in Model)
+            {
+                     
+                
+                <div class="col-4">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="@item.UrlImg" />
+
+                        <div class="card-body">
+                            <h6><b> Nombre: @item.Name</b></h6>
+
+                            <h6><b>Region:@item.Region </b></h6>
+                            <h6><b>Tipo:</b></h6>
+                            <br/>
+                            <div class="btn-group">
+                                <a  asp-controller="Pokemon" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+                                <a  asp-controller="Pokemon" asp-action="Edit" asp-route-id="@item.Id"  class="btn btn-sm btn-outline-primary">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            }  
+        }     
+    </div>
+
+</div>

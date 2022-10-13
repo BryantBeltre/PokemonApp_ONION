@@ -1,0 +1,15 @@
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\bin\Debug\net5.0\Application.deps.json
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\bin\Debug\net5.0\Application.dll
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\bin\Debug\net5.0\Application.pdb
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\bin\Debug\net5.0\Database.dll
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\bin\Debug\net5.0\Database.pdb
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Application.dll
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\refint\Application.dll
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Application.pdb
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\ref\Application.dll

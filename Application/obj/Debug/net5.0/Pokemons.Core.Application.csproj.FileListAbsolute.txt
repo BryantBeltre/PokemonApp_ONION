@@ -1,0 +1,15 @@
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\bin\Debug\net5.0\Pokemons.Core.Application.deps.json
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\bin\Debug\net5.0\Pokemons.Core.Application.dll
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\bin\Debug\net5.0\Pokemons.Core.Application.pdb
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\bin\Debug\net5.0\Pokemons.Core.Domain.dll
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\bin\Debug\net5.0\Pokemons.Core.Domain.pdb
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Pokemons.Core.Application.csproj.AssemblyReference.cache
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Pokemons.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Pokemons.Core.Application.AssemblyInfoInputs.cache
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Pokemons.Core.Application.AssemblyInfo.cs
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Pokemons.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Pokemons.Core.Application.csproj.CopyComplete
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Pokemons.Core.Application.dll
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\refint\Pokemons.Core.Application.dll
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\Pokemons.Core.Application.pdb
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Application\obj\Debug\net5.0\ref\Pokemons.Core.Application.dll

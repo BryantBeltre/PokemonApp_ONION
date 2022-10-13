@@ -1,0 +1,55 @@
+﻿@using Pokemons.Core.Application.ViewModel.Pokemones
+@model List<TypeViewModel>;
+@{
+
+    ViewData["Title"] = "Index";
+}
+
+<div class="container-fluid">
+    <div class="row mb-3">
+        <div class="col-3 offset-9">
+            <a asp-controller="Type" asp-action="Create"  class="btn btn-outline-success">Create Type</a>
+        </div>
+
+    </div>
+
+
+
+    <div class="row">
+        @if (Model == null || Model.Count == 0)
+        {
+            <h3>No hay regiones Registradas</h3>
+        }
+        else
+        {           
+            <div class="row align-items-center">
+                <table class="table table-danger">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Options</th>
+                        </tr>
+                    </thead>
+                    @foreach (TypeViewModel item in Model)
+                   {
+                        <tbody>
+                            <tr>
+                                <td>@item.Id</td>
+                                <td>@item.Name</td>
+                                <td>
+                                     <a  asp-controller="Type" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+                                     <a  asp-controller="Type" asp-action="Edit" asp-route-id="@item.Id"  class="btn btn-sm btn-outline-primary">Edit</a>
+                                </td>
+                            </tr>
+                        
+                        </tbody>
+                   }
+
+                </table>
+            </div>
+        }
+    </div>
+
+</div>
+
