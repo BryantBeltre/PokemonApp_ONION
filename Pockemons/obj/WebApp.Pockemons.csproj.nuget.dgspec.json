@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Pockemons\\WebApp.Pockemons.csproj": {}
+  },
+  "projects": {
+    "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\Pokemons.Core.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\Pokemons.Core.Application.csproj",
+        "projectName": "Pokemons.Core.Application",
+        "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\Pokemons.Core.Application.csproj",
+        "packagesPath": "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj": {
+                "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Database\\Pokemons.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Database\\Pokemons.Infrastructure.Persistence.csproj",
+        "projectName": "Pokemons.Infrastructure.Persistence",
+        "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Database\\Pokemons.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\Pokemons.Core.Application.csproj": {
+                "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\Pokemons.Core.Application.csproj"
+              },
+              "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj": {
+                "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Pockemons\\WebApp.Pockemons.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Pockemons\\WebApp.Pockemons.csproj",
+        "projectName": "WebApp.Pockemons",
+        "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Pockemons\\WebApp.Pockemons.csproj",
+        "packagesPath": "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Pockemons\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\Pokemons.Core.Application.csproj": {
+                "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\Pokemons.Core.Application.csproj"
+              },
+              "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Database\\Pokemons.Infrastructure.Persistence.csproj": {
+                "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Database\\Pokemons.Infrastructure.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj",
+        "projectName": "Pokemons.Core.Domain",
+        "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

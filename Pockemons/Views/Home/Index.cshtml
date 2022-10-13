@@ -1,0 +1,70 @@
+﻿@using Pokemons.Core.Application.ViewModel.Pokemones
+@model List<PokemonViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-3">
+            <div class="card shadow-sm">
+                <div class="card-header bg-dark text-light">
+                    <h4>Filtros</h4>
+                </div>
+                
+                <div class="card-body">
+                    <h4 class="card-title">Pokemones</h4>
+
+                    <form method="post" asp-controller="Home" asp-action="Index">
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" value="null" type="radio" name="PokemonId" id="pokemon-all" />
+                                <label class="form-check-label" for="pokemon-all">Todos</label>
+                            </div>
+                        </div>
+
+                        @foreach (PokemonViewModel poke in ViewBag.Pokemons)
+                       {
+                            <div class="mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" value="@poke.Id" type="radio" name="PokemonId" id="pokemon-@poke.Id" />
+                                    <label class="form-check-label" for="pokemon-@poke.Id">@poke.Name</label>
+                                </div>
+                            </div>  
+                       }
+                       <button tpe="submit">FILTRER</button>
+
+                    </form>
+
+               </div>
+            </div>
+        </div>
+    </div>
+        <div class="col-9">
+            <div class="row">
+                @if (Model == null || Model.Count == 0)
+                {
+                    <h3>No se han creado Pokemons</h3>
+                }
+                else
+                {
+                    @foreach (PokemonViewModel item in Model)
+                    {
+                        <div class="col-4">
+                            <div class="card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top" src="@item.UrlImg" />
+
+                                <div class="card-body">
+                                    <h6><b> Nombre: </b>@item.Name</h6>
+                                    <h6><b>Region: </b>@item.NameRegion</h6>
+                                    <h6><b>Tipo: </b>@item.NameType</h6>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>               
+                    }  
+                }
+            </div>
+        </div>
+    </div>
+</div>

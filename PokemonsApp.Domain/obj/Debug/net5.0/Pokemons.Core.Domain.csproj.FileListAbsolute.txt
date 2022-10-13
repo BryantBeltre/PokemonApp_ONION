@@ -1,0 +1,24 @@
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\bin\Debug\net5.0\Pokemons.Core.Domain.deps.json
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\bin\Debug\net5.0\Pokemons.Core.Domain.dll
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\bin\Debug\net5.0\Pokemons.Core.Domain.pdb
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.AssemblyInfo.cs
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.dll
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\refint\Pokemons.Core.Domain.dll
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.pdb
+C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\ref\Pokemons.Core.Domain.dll
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\bin\Debug\net5.0\Pokemons.Core.Domain.deps.json
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\bin\Debug\net5.0\Pokemons.Core.Domain.dll
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\bin\Debug\net5.0\Pokemons.Core.Domain.pdb
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.csproj.AssemblyReference.cache
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.AssemblyInfoInputs.cache
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.AssemblyInfo.cs
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.csproj.CoreCompileInputs.cache
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.dll
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\refint\Pokemons.Core.Domain.dll
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.pdb
+D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\ref\Pokemons.Core.Domain.dll
