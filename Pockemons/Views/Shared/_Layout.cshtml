@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿@using Microsoft.AspNetCore.Http;
 @using Pokemons.Core.Application.Helpers;
 @using Pokemons.Core.Application.ViewModel.User;
@@ -6,6 +7,9 @@
     UserViewModel User = httpContext.HttpContext.Session.Get<UserViewModel>("user");
 }
 <!DOCTYPE html>
+=======
+﻿<!DOCTYPE html>
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -18,13 +22,18 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
+<<<<<<< HEAD
                 <a class="navbar-brand text-white fw-bold" asp-area="" asp-controller="@(User != null ? "Home" : "User" )" asp-action="Index">Pockemons</a>
+=======
+                <a class="navbar-brand text-white fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Pockemons</a>
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+<<<<<<< HEAD
                         @if (User != null)
                         {
 
@@ -53,6 +62,20 @@
                                 <a class="nav-link text-white fw-bold" asp-area="" asp-controller="User" asp-action="Register">REGISTRATE</a>
                             </li>
                         }
+=======
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" asp-area="" asp-controller="Pokemon" asp-action="Index">Pokemons Mant.</a>
+                        </li>
+                        <br />
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" asp-area="" asp-controller="Region" asp-action="Index">Region Mant.</a>
+                        </li>
+                        <br />
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" asp-area="" asp-controller="Type" asp-action="Index">Type Mant.</a>
+                        </li>
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
                     </ul>
                 </div>
             </div>

@@ -15,6 +15,7 @@
                     <h4>@(editMode ? $"Editando el pokemon: {Model.Name}" : "Creando un nuevo pokemon")</h4>
                 </div>
                 <div class="card-body">
+<<<<<<< HEAD
 
                     @if (Model.Regions == null || Model.Types == null || Model.Regions.Count == 0 || Model.Types.Count == 0)
                     {
@@ -24,6 +25,9 @@
                     else
                     {
                       <form method="post" asp-controller="Pokemon" asp-action="@(editMode ? "Edit" : "Create")">
+=======
+                    <form method="post" asp-controller="Pokemon" asp-action="@(editMode ? "Edit" : "Create")">
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
                         <div class="mb-3">
                             <label asp-for="Name" class="form-label">Nombre: </label>
                             <input type="text" asp-for="Name" class="form-control"/>
@@ -39,18 +43,35 @@
                         
                         <div class="mb-3">
                             <label asp-for="IdRegion" class="form-label">Region: </label>
+<<<<<<< HEAD
                             <select asp-for="IdRegion" asp-items="@(new SelectList (Model.Regions, "Id", "Name"))" class="form-select">
                                 <option value="">Selct a option for region</option>
          
+=======
+                            <select asp-for="IdRegion" class="form-select">
+                                <option value="">Selct a option for region</option>
+                                <option value="1">Kanto</option>
+                                <option value="2">Alola</option>
+                                <option value="3">Hisui</option>
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
                             </select>
                             <span asp-validation-for="IdRegion" class="text-danger"></span>
                         </div>
 
                        <div class="mb-3">
                             <label asp-for="IdType" class="form-label">Region: </label>
+<<<<<<< HEAD
                             <select asp-for="IdType" asp-items="@(new SelectList (Model.Types, "Id", "Name"))" class="form-select">
                                 <option value="">Selct a option for type</option>
 
+=======
+                            <select asp-for="IdType" class="form-select">
+                                <option value="">Selct a option for type</option>
+                                <option value="1">Electrico</option>
+                                <option value="2">Siniestro</option>
+                                <option value="3">Normal</option>
+                                <option value="4">Psiquico</option>
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
                             </select>
                             <span asp-validation-for="IdType" class="text-danger"></span>
                         </div>
@@ -61,8 +82,11 @@
                         <a asp-controller="Pokemon" asp-action="Index" class="btn btn-warning">Return</a>
 
                     </form>
+<<<<<<< HEAD
 
                     }
+=======
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
                 </div>
 
 

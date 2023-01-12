@@ -9,6 +9,7 @@ namespace Pokemons.Core.Domain.Entities
 {
     public class Tipo : AuditableBaseEntity
     {
+        public int Id { get; set; }
 
         public string Name { get; set; }
 

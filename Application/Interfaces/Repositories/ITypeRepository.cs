@@ -10,7 +10,15 @@ namespace Pokemons.Core.Application.Interfaces
 {
     public interface ITypeRepository : IGenericRepository<Tipo>
     {
+        Task AddTypeAsync(Tipo type);
 
+        Task UpdateTypeAsync(Tipo type);
+
+        Task DeleteTypeAsync(Tipo type);
+
+        Task<List<Tipo>> GetAllType();
+
+        Task<Tipo> GetTypeById(int id);
 
     }
 }

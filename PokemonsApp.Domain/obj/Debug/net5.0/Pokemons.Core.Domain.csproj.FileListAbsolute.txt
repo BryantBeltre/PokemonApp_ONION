@@ -10,6 +10,7 @@ C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj
 C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\refint\Pokemons.Core.Domain.dll
 C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.pdb
 C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\PokemonsApp.Domain\obj\Debug\net5.0\ref\Pokemons.Core.Domain.dll
+<<<<<<< HEAD
 D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\bin\Debug\net5.0\Pokemons.Core.Domain.deps.json
 D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\bin\Debug\net5.0\Pokemons.Core.Domain.dll
 D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\bin\Debug\net5.0\Pokemons.Core.Domain.pdb
@@ -22,3 +23,5 @@ D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.C
 D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\refint\Pokemons.Core.Domain.dll
 D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\Pokemons.Core.Domain.pdb
 D:\C#\PokrmonMVC\PokemonApp_ONION\PokemonsApp.Domain\obj\Debug\net5.0\ref\Pokemons.Core.Domain.dll
+=======
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9

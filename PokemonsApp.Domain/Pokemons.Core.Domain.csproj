@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Folder Include="Common\" />
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
     <Folder Include="Settings\" />
   </ItemGroup>
 

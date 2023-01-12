@@ -56,7 +56,7 @@ namespace Application.Services
             Region region = new();
             region.Id = sr.Id;
             region.Name = sr.Name;
-            
+
 
             await _regionRepository.AddAsync(region);
         }

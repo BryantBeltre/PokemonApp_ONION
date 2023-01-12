@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Pockemons\\WebApp.Pockemons.csproj": {}
   },
   "projects": {
@@ -15,6 +16,26 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Pockemons\\WebApp.Pockemons.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Application\\Pokemons.Core.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Application\\Pokemons.Core.Application.csproj",
+        "projectName": "Pokemons.Core.Application",
+        "projectPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Application\\Pokemons.Core.Application.csproj",
+        "packagesPath": "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +49,13 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj": {
                 "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj"
+=======
+              "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj"
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
               }
             }
           }
@@ -44,6 +70,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+<<<<<<< HEAD
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
               "version": "[2.2.2, )"
@@ -52,6 +79,8 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+=======
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -63,10 +92,13 @@
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[5.0.0, )"
+<<<<<<< HEAD
             },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
+=======
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
             }
           },
           "imports": [
@@ -75,8 +107,12 @@
             "net47",
             "net471",
             "net472",
+<<<<<<< HEAD
             "net48",
             "net481"
+=======
+            "net48"
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -85,6 +121,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
@@ -100,6 +137,27 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Database\\Pokemons.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Database\\Pokemons.Infrastructure.Persistence.csproj",
+        "projectName": "Pokemons.Infrastructure.Persistence",
+        "projectPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Database\\Pokemons.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,11 +171,19 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\Pokemons.Core.Application.csproj": {
                 "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\Pokemons.Core.Application.csproj"
               },
               "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj": {
                 "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj"
+=======
+              "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Application\\Pokemons.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Application\\Pokemons.Core.Application.csproj"
+              },
+              "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj"
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
               }
             }
           }
@@ -151,8 +217,12 @@
             "net47",
             "net471",
             "net472",
+<<<<<<< HEAD
             "net48",
             "net481"
+=======
+            "net48"
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -161,6 +231,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
@@ -176,6 +247,27 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Pockemons\\WebApp.Pockemons.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Pockemons\\WebApp.Pockemons.csproj",
+        "projectName": "WebApp.Pockemons",
+        "projectPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Pockemons\\WebApp.Pockemons.csproj",
+        "packagesPath": "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Pockemons\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -189,11 +281,19 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\Pokemons.Core.Application.csproj": {
                 "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\Pokemons.Core.Application.csproj"
               },
               "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Database\\Pokemons.Infrastructure.Persistence.csproj": {
                 "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Database\\Pokemons.Infrastructure.Persistence.csproj"
+=======
+              "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Application\\Pokemons.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Application\\Pokemons.Core.Application.csproj"
+              },
+              "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Database\\Pokemons.Infrastructure.Persistence.csproj": {
+                "projectPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\Database\\Pokemons.Infrastructure.Persistence.csproj"
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
               }
             }
           }
@@ -229,8 +329,12 @@
             "net47",
             "net471",
             "net472",
+<<<<<<< HEAD
             "net48",
             "net481"
+=======
+            "net48"
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -242,6 +346,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
@@ -257,6 +362,27 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj",
+        "projectName": "Pokemons.Core.Domain",
+        "projectPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -287,8 +413,12 @@
             "net47",
             "net471",
             "net472",
+<<<<<<< HEAD
             "net48",
             "net481"
+=======
+            "net48"
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -297,7 +427,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
         }
       }
     }

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "NEt5pKxK1AhuPv67sZDWxVjJ6RqP64AJlP6HcaV4ASs9Oa8w1kF+32zUyviqVIgDazZMvvAiL0YP4mPyPYWUvw==",
   "success": true,
   "projectFilePath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj",
+=======
+  "dgSpecHash": "4zt1pdWaVwzLuxx+rIKrQwQOKCj8zZYn5DkcaC5jici1SPQm2QJx+/Pd0e8Nbae6IzwvF5+tP8NRtrakWI7moA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj",
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
   "expectedPackageFiles": [],
   "logs": []
 }

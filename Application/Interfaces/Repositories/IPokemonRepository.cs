@@ -11,6 +11,14 @@ namespace Pokemons.Core.Application.Interfaces
 {
     public interface IPokemonRepository : IGenericRepository<Pokemon>
     {
- 
+        Task AddAsync(Pokemon pokemons);
+
+        Task UpdateAsync(Pokemon pokemons);
+
+        Task DeleteAsync(Pokemon pokemons);
+
+        Task<List<Pokemon>> GetAllAsync();
+
+        Task<Pokemon> GetByIdAsync(int id);
     }
 }

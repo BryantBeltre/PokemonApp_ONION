@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿@using Pokemons.Core.Application.ViewModel.Region
+=======
+﻿@using Pokemons.Core.Application.ViewModel.Pokemones
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
 @model List<RegionViewModel>
 @{
     ViewData["Title"] = "Regions";
@@ -26,7 +30,10 @@
                             <tr>
                                 <th>Id</th>
                                 <th>Name</th>
+<<<<<<< HEAD
                                 <th>Cantidad de pokemons</th>
+=======
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
                                 <th>Option</th>
                             </tr>
                         </thead>
@@ -41,9 +48,12 @@
                                         @item.Name
                                     </td>
                                     <td>
+<<<<<<< HEAD
                                         @item.PokemonQuantity
                                     </td>
                                     <td>
+=======
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
                                         <a  asp-controller="Region" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Delete</a>
                                         <a  asp-controller="Region" asp-action="Edit" asp-route-id="@item.Id"  class="btn btn-sm btn-outline-primary">Edit</a>
                                     </td>

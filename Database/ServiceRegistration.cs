@@ -32,11 +32,18 @@ namespace Pokemons.Infrastructure.Persistence
             }
             #endregion
 
-
+            #region Repositories
+            
             #region Repositories
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddTransient<IPokemonRepository, PokemonRepository>();
-            services.AddTransient<ITypeRepository, TipoRepository>();   
+            #endregion
+
+            #region RepositoryType
+            services.AddTransient<ITypeRepository, TipoRepository>();
+            #endregion
+
+            #region RepositoryRegion
             services.AddTransient<IRegionRepository, RegionRepository>();
             services.AddTransient<IUserRepository, UserRepository>();
             #endregion

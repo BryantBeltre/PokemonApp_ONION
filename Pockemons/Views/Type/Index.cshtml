@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿@using Pokemons.Core.Application.ViewModel.Tipo
+=======
+﻿@using Pokemons.Core.Application.ViewModel.Pokemones
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
 @model List<TypeViewModel>;
 @{
 
@@ -28,7 +32,10 @@
                         <tr>
                             <th>Id</th>
                             <th>Name</th>
+<<<<<<< HEAD
                             <th>Cantidad de pokemons</th>
+=======
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
                             <th>Options</th>
                         </tr>
                     </thead>
@@ -38,9 +45,14 @@
                             <tr>
                                 <td>@item.Id</td>
                                 <td>@item.Name</td>
+<<<<<<< HEAD
                                 <td>@item.PokemonQuantity</td>
                                 <td>
                                      <a  asp-controller="Type" asp-action="DeleteC" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+=======
+                                <td>
+                                     <a  asp-controller="Type" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
                                      <a  asp-controller="Type" asp-action="Edit" asp-route-id="@item.Id"  class="btn btn-sm btn-outline-primary">Edit</a>
                                 </td>
                             </tr>

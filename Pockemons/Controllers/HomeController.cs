@@ -32,7 +32,7 @@ namespace Pockemons.Controllers
         public async Task<IActionResult> Index(PokemonFiltrerViewModel pfv)
         {
             if (!_validateUSerSession.HasUser())
-            {
+        {
                 return RedirectToRoute(new { controller = "User", action = "Index" });
             }
             ViewBag.Pokemons = await _pokemonServices.GetAllViewModel();

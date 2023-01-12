@@ -9,6 +9,14 @@ namespace Pokemons.Core.Application.Interfaces.Services
 {
     public interface ITypeService : IGenericService<SaveType, TypeViewModel>
     {
+        Task<List<TypeViewModel>> GetAllTypes();
 
+        Task AddType(SaveType st);
+
+        Task UpdateType(SaveType st);
+
+        Task<SaveType> GetTypeById(int id);
+
+        Task DeleteType(int id);
     }
 }

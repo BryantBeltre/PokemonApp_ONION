@@ -111,7 +111,7 @@
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll": {
             "related": ".xml"
-          }
+        }
         }
       },
       "Microsoft.EntityFrameworkCore.Abstractions/5.0.17": {
@@ -124,7 +124,7 @@
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {
             "related": ".xml"
-          }
+        }
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/5.0.17": {
@@ -149,7 +149,7 @@
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {
             "related": ".xml"
-          }
+        }
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
@@ -165,7 +165,7 @@
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
             "related": ".xml"
-          }
+        }
         }
       },
       "Microsoft.Extensions.Caching.Memory/5.0.0": {
@@ -185,7 +185,7 @@
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
             "related": ".xml"
-          }
+        }
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
@@ -409,7 +409,7 @@
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {
             "related": ".xml"
-          }
+        }
         }
       },
       "System.ComponentModel.Annotations/5.0.0": {
@@ -422,7 +422,7 @@
         "runtime": {
           "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {
             "related": ".xml"
-          }
+        }
         }
       },
       "System.Diagnostics.DiagnosticSource/5.0.1": {
@@ -435,7 +435,7 @@
         "runtime": {
           "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {
             "related": ".xml"
-          }
+        }
         }
       },
       "System.Text.Encodings.Web/4.5.0": {
@@ -1105,8 +1105,12 @@
       "packagesPath": "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\",
       "outputPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

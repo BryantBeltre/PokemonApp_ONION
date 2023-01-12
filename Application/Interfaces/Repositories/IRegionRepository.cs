@@ -9,6 +9,14 @@ namespace Pokemons.Core.Application.Interfaces.Repositories
 {
     public interface IRegionRepository : IGenericRepository<Region>
     {
+        Task AddRegionAsync(Region region);
 
+        Task UpdateRegionAsync(Region region);
+
+        Task DeleteRegionAsync(Region region);
+
+        Task<List<Region>> GetAllRegion();
+
+        Task<Region> GetAsyncRegionCyId(int id);
     }
 }

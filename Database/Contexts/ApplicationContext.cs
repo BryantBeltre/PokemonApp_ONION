@@ -88,7 +88,7 @@ namespace Pokemons.Infrastructure.Persistence.Contexts
                 .WithOne(pokemons => pokemons.Tipo)
                 .HasForeignKey(pokemon => pokemon.IdTipo)
                 .OnDelete(DeleteBehavior.Cascade);
-    
+
             modelBuilder.Entity<User>()
                 .HasMany<Pokemon>(user => user.pokemons)
                 .WithOne(pokemons => pokemons.user)

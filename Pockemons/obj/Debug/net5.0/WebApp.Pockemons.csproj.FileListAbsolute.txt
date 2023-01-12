@@ -442,6 +442,7 @@ C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Pockemons\obj\Debug\ne
 C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Pockemons\obj\Debug\net5.0\WebApp.Pockemons.pdb
 C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Pockemons\obj\Debug\net5.0\WebApp.Pockemons.genruntimeconfig.cache
 C:\Users\FRANCIS BRYANT\OneDrive\Escritorio\MVC\Pockemons\Pockemons\obj\Debug\net5.0\ref\WebApp.Pockemons.dll
+<<<<<<< HEAD
 D:\C#\PokrmonMVC\PokemonApp_ONION\Pockemons\obj\Debug\net5.0\WebApp.Pockemons.csproj.AssemblyReference.cache
 D:\C#\PokrmonMVC\PokemonApp_ONION\Pockemons\obj\Debug\net5.0\WebApp.Pockemons.GeneratedMSBuildEditorConfig.editorconfig
 D:\C#\PokrmonMVC\PokemonApp_ONION\Pockemons\obj\Debug\net5.0\WebApp.Pockemons.AssemblyInfoInputs.cache
@@ -894,3 +895,5 @@ D:\C#\PokrmonMVC\PokemonApp_ONION\Pockemons\obj\Debug\net5.0\staticwebassets\msb
 D:\C#\PokrmonMVC\PokemonApp_ONION\Pockemons\obj\Debug\net5.0\staticwebassets\msbuild.build.WebApp.Pockemons.props
 D:\C#\PokrmonMVC\PokemonApp_ONION\Pockemons\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.WebApp.Pockemons.props
 D:\C#\PokrmonMVC\PokemonApp_ONION\Pockemons\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.WebApp.Pockemons.props
+=======
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9

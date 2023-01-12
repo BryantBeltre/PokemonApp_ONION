@@ -1,4 +1,5 @@
 ﻿using Application.Services;
+
 using Microsoft.AspNetCore.Mvc;
 using Pokemons.Core.Application.Interfaces.Services;
 using Pokemons.Core.Application.ViewModel.Pokemones;
@@ -37,7 +38,7 @@ namespace Pockemons.Controllers
             if (!_validateUSerSession.HasUser())
             {
                 return RedirectToRoute(new { controller = "User", action = "Index" });
-            }
+        }
             SavePokemon  sp= new();
             sp.Regions = await _regionService.GetAllViewModel();
             sp.Types = await _typeService.GetAllViewModel();

@@ -10,7 +10,8 @@ namespace Pokemons.Core.Application.Interfaces.Services
 {
     public interface IPokemonService : IGenericService<SavePokemon, PokemonViewModel>
     {
-
+        Task UpdatePokemon(SavePokemon sp);
+        
         Task<List<PokemonViewModel>> GetAllViewModelFiltrer(PokemonFiltrerViewModel filtres);
     }
 }

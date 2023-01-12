@@ -8,11 +8,17 @@
     "net5.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj",
       "projectName": "Pokemons.Core.Domain",
       "projectPath": "D:\\C#\\PokrmonMVC\\PokemonApp_ONION\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj",
@@ -21,6 +27,20 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj",
+      "projectName": "Pokemons.Core.Domain",
+      "projectPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\Pokemons.Core.Domain.csproj",
+      "packagesPath": "C:\\Users\\FRANCIS BRYANT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FRANCIS BRYANT\\OneDrive\\Escritorio\\MVC\\Pockemons\\PokemonsApp.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\FRANCIS BRYANT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,8 +71,12 @@
           "net47",
           "net471",
           "net472",
+<<<<<<< HEAD
           "net48",
           "net481"
+=======
+          "net48"
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +85,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+>>>>>>> 5b9ee33994f341d7a6339b8ef121b513d12da1d9
       }
     }
   }

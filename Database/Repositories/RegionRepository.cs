@@ -20,6 +20,33 @@ namespace Application.Repository
             _dbContext = dbContext;
         }
 
-        
+        public async Task AddRegionAsync(Region region)
+        {
+            await _dbContext.Regions.AddAsync(region);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task UpdateRegionAsync(Region region)
+        {
+            _dbContext.Entry(region).State = EntityState.Modified; 
+            await _dbContext.SaveChangesAsync();
+
+        }
+
+        public async Task DeleteRegionAsync(Region region)
+        {
+            _dbContext.Set<Region>().Remove(region);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task<List<Region>> GetAllRegion()
+        {
+            return await _dbContext.Set<Region>().ToListAsync();
+        }
+
+        public async Task<Region> GetAsyncRegionCyId(int id)
+        {
+            return await _dbContext.Set<Region>().FindAsync(id);
+        }
     }
 }

@@ -63,7 +63,7 @@ namespace Pockemons.Controllers
             if (!_validateUSerSession.HasUser())
             {
                 return RedirectToRoute(new { controller = "User", action = "Index" });
-            }
+        }
             return View("SaveType", await _typeservice.GetById(id));
         }
 
@@ -92,7 +92,7 @@ namespace Pockemons.Controllers
         public async Task<IActionResult> DeleteC(int id)
         {
             if (!_validateUSerSession.HasUser())
-            {
+        {
                 return RedirectToRoute(new { controller = "User", action = "Index" });
             }
             await _typeservice.Delete(id);
